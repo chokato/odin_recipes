@@ -1,7 +1,11 @@
+
 body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 .header {
@@ -9,10 +13,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    padding: 16px;
+}
+
+.header a {
+    font-size: 24px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
 }
 
 .intro {
@@ -50,8 +63,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 8px;
-    padding-bottom: 40px;
+    padding: 8px 20% 40px;
 }
 
 .soups h2 {
@@ -59,6 +71,7 @@ body {
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
+    text-align: center;
 }
 
 .soups p {
@@ -113,4 +126,40 @@ body {
 
 .footer a {
     color: #333;
+}
+
+.recipe-content {
+    flex: 1;
+    padding: 2% 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.recipe-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    margin-bottom: -20px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    margin-bottom: -20px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.recipe-content p, ul, ol {
+    color:#4a4a4a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
