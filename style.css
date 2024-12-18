@@ -24,6 +24,7 @@ body {
     color:#4a4a4a;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    border-bottom: 1px solid #f2f2f2;
 }
 
 .image-wrapper {
@@ -43,50 +44,42 @@ body {
     color:#fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-
 }
 
-h2 {
-    font-family: 'Georgia', serif;
-    color: #000000; 
-    text-align: left;
+.soups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
 }
 
-p {
-    font-family: 'Helvetica', sans-serif;
-    color: #474747;
-    text-align: left;
+.soup-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 24px;
 }
 
-ul {
-    font-family: 'Helvetica', sans-serif;
-    text-align: left;
-    list-style-position: inside;
-    color: #474747;
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
-ol {
-    font-family: 'Helvetica', sans-serif;
-    text-align: left;
-    list-style-position: inside;
-    color: #474747;
+.soup-img {
+    width: 100px;
+    height: 100px;
 }
 
-a {
-    color:#007474;
+.recipe {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    color: #C3611E;
 }
 
-a:hover {
-    color: #004747;
-}
-
-.a-back {
-    font-family: 'Helvetica', sans-serif;
-    text-align: left;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.recipe:hover {
+    color:#D88530;
 }
