@@ -1,15 +1,31 @@
 body {
-    background-color: #f8fae1;
-    padding-left: 20%;
-    padding-right:20%;
-    width: 60%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
-h1 {
-    font-family: 'Georgia', serif;
-    color: #000000; 
-    text-align: center;
-    font-size: 48px;
+.header {
+    background-color: #D7E1DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 20%;
+    gap: 8px;
+    color:#4a4a4a
+}
+
+.caption {
+
 }
 
 h2 {
